@@ -92,7 +92,7 @@ function DetailCard({ element, group, handleClick }) {
             {element.favorite ? (
               <i className="fa-solid fa-heart"></i>
             ) : (
-              <i className="fa-regular fa-heart"></i>
+              <i className="far fa-heart"></i>
             )}
           </Button>
         </Card.Header>

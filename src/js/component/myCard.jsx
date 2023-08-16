@@ -47,7 +47,7 @@ function MyCard({ item, group, handleClick }) {
         </Button>
         <Button variant="outline-warning" onClick={(e) => handleClick(e, item)}>
           {item.favorite ? (
-            <i className="fa-solid fa-heart"></i>
+            <i className="fas fa-heart"></i>
           ) : (
             <i className="fa-regular fa-heart"></i>
           )}

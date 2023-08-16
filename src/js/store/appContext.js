@@ -25,9 +25,10 @@ const injectContext = PassedComponent => {
 
 			const categories = ["people", "planets", "vehicles" ]
 			categories.forEach((category) => {
-				if(!state.store.data[category]){
+				console.log(category)
+				
 					state.actions.loadData(category)
-				}
+				
 
 			})
 			/**

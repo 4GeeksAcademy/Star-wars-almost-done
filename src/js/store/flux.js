@@ -42,7 +42,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 									...results[i],
 									...properties,
 									loaded : true,
-									imgURL:`https://starwars-visualguide.com/assets/img/${group==="people" ? "characters" : group}${id}.jpg`
+									imgURL:`https://starwars-visualguide.com/assets/img/${group==="people" ? "characters" : group}/${id}.jpg`
 
 								}
 								break

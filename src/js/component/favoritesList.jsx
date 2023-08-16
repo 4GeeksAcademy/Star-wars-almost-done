@@ -27,7 +27,7 @@ function FavoritesList({ favs }) {
             variant="outline-danger border-0"
             onClick={(e) => handleClick(e, item)}
           >
-            <i className="fa-regular fa-trash-can"></i>
+            <i className="fas fa-trash-alt"></i>
           </Button>
         </Dropdown.Item>
       );
